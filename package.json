@@ -1,0 +1,11 @@
+{
+  "name": "kamus",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "deno run --allow-net --no-check index.ts",
+    "dev": "deno run --allow-net index.ts"
+  },
+  "main": "index.ts",
+  "license": "MIT",
+  "type": "module"
+}
