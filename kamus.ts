@@ -16,7 +16,7 @@ while (true) {
   let data = html.match(/(?<=<div id="info"><\/div>).*?(?=\t*<\/div>)/g)?.[0];
 
   if (data === undefined) {
-    console.log(colors.Red + "No result");
+    console.log(colors.Red + "No result" + colors.Reset);
     continue;
   }
   // Replace html code
