@@ -6,3 +6,6 @@
 2. `git clone https://github.com/chengqing97/kbbi-cli.git`
 3. `deno install --allow-net --no-check kbbi-cli/kamus.ts`
 
+## Usage
+Type `kamus` in your terminal and start using!
+
